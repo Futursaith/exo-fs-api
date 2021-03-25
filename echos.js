@@ -3,7 +3,7 @@ let msg = '';
 
 if (tab
   .length < 3) {
-  console.log(`Error: Il n'y a pas de message a afficher`);
+  console.log(`Error: votre message n'est pas valide`);
   process.exit(1);
 }
 
